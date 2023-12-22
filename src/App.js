@@ -100,8 +100,8 @@ const Form = ({ email, handleChange, emailError, formSubmit }) => {
             </button>
           </div>
         </div>
-        <div className='w-[400px] max-md:hidden'>
-          <img src={IMG} alt='img' className='h-full object-cover  rounded-xl'/>
+        <div className='min-h-full lg:min-w-[400px] max-md:hidden '>
+          <img src={IMG} alt='img' className='h-full w-full object-cover rounded-xl'/>
         </div>
         <div className='md:hidden'>
           <img src={IMGMobile} alt='img' className='h-full w-full '/>
